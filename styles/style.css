@@ -142,5 +142,14 @@ nav ul li{
   margin:0;
 }
 
+/* feedback section */
+.feedback ul li {
+  list-style: none;
+}
+.feedback ul{
+  display: flex;
+  gap:10px;
+}
+
 
 
