@@ -330,4 +330,49 @@ footer ul a{
   color:#8987A1;
   white-space: nowrap;
 }
+/* focus section styles*/
+.focus{
+  margin:10px 150px 95px 150px;
+  padding: 50px 150px 70px 150px;
+  /* background-color: rebeccapurple; */
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.focus-title{
+  /* border:1px solid red; */
+  color:#000000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom:0;
+}
+.focus-paragraph{
+  margin-top:10px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size:16px;
+  color:#00000080;
 
+}
+
+.focus button{
+   white-space: nowrap;
+  
+}
+.focus img{
+  border-radius: 48px;
+}
+
+
+/* hover effect and animation in button  */
+.btn-primary:hover{
+  animation: color-change 1s forwards;
+}
+@keyframes color-change {
+  to {
+    background-color: yellowgreen;
+    color:red;
+  }
+}
