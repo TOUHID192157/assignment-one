@@ -143,21 +143,52 @@ nav ul li{
 }
 
 /* feedback section */
+.feedback
+{
+   margin: 116px 160px 116px 140px;
+   text-align: center;
+}
+
+
 .feedback ul li {
   list-style: none;
+  border: 0.5px solid red;
+  
 }
 .feedback ul{
   display: flex;
-  gap:10px;
+  gap:5px;
+  /* justify-content: start; */
+  border: 2px solid red;
+  padding:0;
 }
 .review-ident{
   display: flex;
   align-items: center;
+  gap:20px;
+  
    border:2px solid red;
+}
+
+.review-ident img ,.reviewer-name{
+  padding: 0;
+  margin: 0;
+
 }
 .personal-review{
   text-align: left;
+  padding-top: 24px;
 }
-
+.review{
+  display: flex;
+  justify-content: space-between;
+  gap:30px;
+}
+.feed-header ,.feed-para{
+  border: 1px solid red;
+  padding:0;
+  margin:0;
+  padding-bottom: 10px;
+}
 
 
