@@ -30,7 +30,7 @@ header{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 
 /* nav styles */
@@ -72,7 +72,7 @@ nav ul li{
   justify-content: space-between;
   align-items: center;
   margin: 116px 160px 116px 140px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding:0;
 }
 .left-side-action-section{
@@ -81,7 +81,7 @@ nav ul li{
   padding-top: 5px;
   padding-right: 23px; 
   
- border: 2px solid red ;
+ /* border: 2px solid red ; */
  margin : 1px 1px 1px 1px ;
  
 }
@@ -110,7 +110,7 @@ nav ul li{
 .pro-user-section{
   text-align: center;
   margin: 116px 160px 116px 140px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding:50px 142px;
   background-color: #4E47FF1A;
   border-radius: 24px;
@@ -120,7 +120,7 @@ nav ul li{
   font-weight: bold;
   font-size: 38px;
   color:#252432FF;
-  border:2px solid red;
+  /* border:2px solid red; */
 }
 
 .pro-user-info{
@@ -131,35 +131,43 @@ nav ul li{
   color:#4E47FF;
   font-size: 80px;
   font-weight: bold;
-  border:2px solid red;
+  /* border:2px solid red; */
   margin:0;
 }
 .data-name{
   font-size: 20px;
   font-weight: 400;
   color:#00000080;
-  border:2px solid red;
+  /* border:2px solid red; */
   margin:0;
 }
 
 /* feedback section */
 .feedback
 {
-   margin: 116px 160px 116px 140px;
+   margin: 116px 160px 136px 140px;
    text-align: center;
+   /* border: 1px solid red; */
+   border-radius: 14px;
+}
+.feed-title{
+  font-size: 42px;
+  font-weight: bold;
+  color:#252432;
+  margin-bottom: 50px;
 }
 
 
 .feedback ul li {
   list-style: none;
-  border: 0.5px solid red;
+  /* border: 0.5px solid red; */
   
 }
 .feedback ul{
   display: flex;
   gap:5px;
   /* justify-content: start; */
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding:0;
 }
 .review-ident{
@@ -167,28 +175,159 @@ nav ul li{
   align-items: center;
   gap:20px;
   
-   border:2px solid red;
+   /* border:2px solid red; */
 }
 
 .review-ident img ,.reviewer-name{
   padding: 0;
   margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  color:#757575;
 
 }
 .personal-review{
   text-align: left;
-  padding-top: 24px;
+  padding: 24px;
+  background-color: #FFFFFF80;
+  border: 1px solid  #F2EDED;
+  /* ei border remove hobe na  */
+  border-radius: 14px;
+  
 }
 .review{
   display: flex;
   justify-content: space-between;
-  gap:30px;
+  gap:20px;
 }
-.feed-header ,.feed-para{
-  border: 1px solid red;
+.feed-header {
+  /* border: 1px solid red; */
   padding:0;
   margin:0;
   padding-bottom: 10px;
+  font-weight:600 ;
+  font-size: 24px;
+  color: #1E1E1E;
+}
+.feed-para{
+   /* border: 1px solid red; */
+  padding:0;
+  margin:0;
+  padding-bottom: 10px;
+  font-weight:400 ;
+  font-size: 16px;
+  color: #1E1E1E;
 }
 
+/* touch section styles */
+.touch{
+  margin:10px 150px 14px 150px;
+  /* background-color: #FFFFFF80; */
+  /* bg remove hobe */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:20px;
+   /* border: 1px solid red; */
+  
+}
+.touch-head{
+  width:45%;
+}
+.touch-title{
+  font-weight: bold;
+  font-size: 97px;
+  color:#000000;
+   /* border: 1px solid red; */
+ 
+}
+.touch-column{
+  display: block;
+  width: 45%;
+  /* border: 1px solid red; */
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.input-form{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  width: 100%;
+  
+}
+.input-form label{
+   
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+
+}
+.input-form input {
+  width:95%;
+  height:70px;
+  color:#FFFFFF;
+  border: 1px solid #D6DDED;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #00000080;
+
+}
+.input-form textarea{
+  width: 95%;
+  height:125px;
+  color:#FFFFFF;
+  border: 1px solid #D6DDED;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top:30px;
+   font-size: 20px;
+  font-weight: 400;
+  color: #00000080;
+
+}
+.touch-btn{
+  width:98%;
+}
+
+
+/* FOOTER SECTION STYLES */
+
+footer{
+  padding:110px 450px 145px 450px;
+  text-align: center;
+  background-color: #FFFFFF;
+  border: 1px solid  #0000001A;
+}
+
+.footer-title{
+  color:#4E47FF;
+  font-weight: 900;
+  font-size: 100px;
+   /* border: 1px solid red; */
+   margin-bottom: 20px;
+
+}
+.footer-paragraph{
+  color: #8987A1;
+  font-weight: 400;
+  font-size: 16px;
+   /* border: 1px solid red; */
+   margin-top: 10px;
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap:48px;
+   /* border: 1px solid red; */
+}
+footer ul a{
+  text-decoration: none;
+  color:#8987A1;
+  white-space: nowrap;
+}
 
